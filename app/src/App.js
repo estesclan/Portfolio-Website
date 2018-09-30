@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import FlexboxChallenge from "./flexboxChallenge"
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <h1>DUDE, I'm IN!</h1>
+        <FlexboxChallenge />
       </div>
     )
   }
