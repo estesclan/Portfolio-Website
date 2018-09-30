@@ -13,7 +13,8 @@ const FlexboxChallenge = props => {
           alignItems: "center",
           backgroundColor: "purple",
           //marginTop: -200,
-          marginLeft: 50
+          marginLeft: 50,
+          borderRadius: 8
         }}
       >
         <div
@@ -68,6 +69,25 @@ const FlexboxChallenge = props => {
             }}
           >
             3
+          </div>
+        </div>
+        <div
+          style={{
+            width: 100,
+            height: 100,
+            display: "flex",
+            margin: "auto",
+            backgroundColor: "orange",
+            fontSize: 30,
+            order: -1
+          }}
+        >
+          <div
+            style={{
+              margin: "auto"
+            }}
+          >
+            4
           </div>
         </div>
       </div>
