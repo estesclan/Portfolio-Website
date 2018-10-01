@@ -6,16 +6,14 @@ const FlexboxChallenge = props => {
       <h1>flexbox</h1>
       <div
         style={{
-          width: "50em",
+          width: "80%",
           height: 400,
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
-          alignItems: "stretch",
+          alignItems: "center",
           backgroundColor: "purple",
           margin: "auto",
-          //marginTop: -200,
-          //marginLeft: 50,
           borderRadius: 8
         }}
       >
@@ -24,7 +22,8 @@ const FlexboxChallenge = props => {
             width: 100,
             height: 100,
             display: "flex",
-            //margin: "auto",
+            margin: "auto",
+            padding: 70,
             backgroundColor: "orange",
             fontSize: 30
           }}
@@ -80,8 +79,8 @@ const FlexboxChallenge = props => {
             display: "flex",
             margin: "auto",
             backgroundColor: "orange",
-            fontSize: 30,
-            order: -1
+            fontSize: 30
+            //order: -1
           }}
         >
           <div
