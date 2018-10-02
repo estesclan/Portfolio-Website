@@ -15,8 +15,15 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p> */}
-        <h1>DUDE, I'm IN!</h1>
-        <Background />
+        <h1 style={{ color: "white " }}>DUDE, I'm IN!</h1>
+        <div
+          style={{
+            marginTop: -9,
+            transform: "skewY(30deg)"
+          }}
+        >
+          <Background />
+        </div>
       </div>
     )
   }
